@@ -1,0 +1,23 @@
+name: arasd
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - pandas
+  - matplotlib
+  - jupyter
+  - ipywidgets
+  - pip
+  - pip:
+    - transformers
+    - accelerate
+    - datasets
+    - bitsandbytes
+    - faiss-cpu
+    - sentence-transformers
+    - evaluate
+    - tqdm
+    - scikit-learn
+    - rouge-score
+    - nltk
